@@ -1,77 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 * {
-    background-color: #F9FBB2;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-image: linear-gradient(to bottom right, #D5D2E5,#F2EEBF,#3F8ECD, #A4C27A);
+}
 header {
     margin: auto;
     margin-top: 50px;
     flex-wrap: wrap;
     border-radius: 40px;
     width: 80vw;
-    height: 120px;
+    height: 220px;
     display: flex;
     justify-content: space-around;
-    
+    background-image: url(https://sm.ign.com/ign_br/screenshot/default/orp-03-griffinbowarrow_yzkn.jpg);
     align-items: center;
-    background-color: white;
+    
+    
+    
     
 
 }
 
 ul {
-    background-color: white;
+    background-color: transparent;
     display: flex;
-    
+
     list-style: none;
 }
 
 .botao {
 
-    
+
     list-style: none;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    font-size: 20px;
-    background-color: white;
+    font-size: 30px;
+    background-color: transparent;
 
 
 }
-a{
+
+a {
     text-decoration: none;
-    background-color: #EBF38B;
+    background-color: transparent;
     color: black;
-    
+
 }
 
 
 
 
-.botao:hover{
-    background-color:#EBF38B;
+.botao:hover {
+    background-color: gold;
     padding: 10px;
     border-radius: 10px;
 }
-.botao:hover a{
-    background-color: #EBF38B;
+
+.botao:hover a {
+    background-color: gold;
     border-radius: 10px;
 }
-.botao:hover .janelaAtual{
-    background-color: #EBF38B;
+
+.botao:hover .janelaAtual {
+    background-color: gold;
     border-radius: 10px;
 }
-.janelaAtual{
+
+.janelaAtual {
     text-decoration: underline;
-    background-color: white;
+    
 }
-h1{
-    background-color: white;
-    font-size: 45px;
+
+h1 {
+    margin-top: 11px;
+    background-color: transparent;
+    font-size: 60px;
     font-weight: bolder;
     font-family: 'Cinzel', serif;
 }
@@ -79,52 +89,73 @@ h1{
 main {
     margin: auto;
     margin-top: 90px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-radius: 40px;
+    
     width: 80vw;
-    height: 82vw;
+    height: auto;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: flex-start;
-    background-color: #EBF38B;
+    background-color: transparent;
     flex-wrap: wrap;
+    margin-bottom: 90px;
+    background-image: url(https://images7.alphacoders.com/111/1118224.jpg);
+    
 }
+
 @media (max-width: 600px) {
     main {
-        height: 120vw; /* Ajusta a altura para telas menores */
-        padding: 10px; /* Ajusta o padding para telas menores */}}
+        height: 120vw;
+        padding: 10px;
+    }
+    header {
+        width:auto;
+        padding: 10px;
 
-main > div {
-    width: 70%; 
-    margin-top: 20px; 
-    background-color: #EBF38B;
-    
+    }
+}
+
+main>div {
+    width: 70%;
+    margin-top: 20px;
+    background-color: transparent;
+
 }
 
 h2 {
     margin-top: 50px;
-    font-size: 30px; 
-    margin-bottom: 20px; 
-    background-color: #EBF38B;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
 }
 
 p {
     font-size: 20px;
     text-align: justify;
-    background-color: #EBF38B;
+    background-color:transparent;
     color: black;
+    font-weight: bolder;
+
 }
-img{
+
+img {
     margin-top: 30px;
     margin-left: 3000;
     align-items: center;
     border-radius: 10px;
 }
-h3{
+
+h3 {
     background-color: #EBF38B;
     margin-top: 20px;
 }
-.gambBack{
-    background-color: white;
-}
 
+.gambBack {
+    background-color: transparent;
+}
+li{
+    background-color: transparent;
+}
+nav{
+    background-color: transparent;
+}
