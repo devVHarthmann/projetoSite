@@ -134,10 +134,10 @@ main {
         
     }
     .botao {
-        font-size: 14pt;
+        font-size: 12pt;
         padding: 5px;
         margin-bottom: 38px;
-        font-weight: 999;
+        font-weight: bolder;
     }
     .botao:hover{
         padding: 5px;
